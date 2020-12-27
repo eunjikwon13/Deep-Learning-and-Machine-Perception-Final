@@ -9,7 +9,7 @@ from src.dataset import CUB as Dataset
 from src.sampler import Sampler
 from src.train_sampler import Train_Sampler
 from src.utils import count_acc, Averager, csv_write, square_euclidean_metric
-from model import FewShotModel, FewShotModel3
+from model import FewShotModel
 from model import resnet
 
 from src.test_dataset import CUB as Test_Dataset
@@ -89,8 +89,7 @@ def train(args):
     " Make your own model for Few-shot Classification in 'model.py' file."
 
     # model setting
-    model = FewShotModel3()
-    #  model = resnet()
+    model = FewShotModel()
     """ TODO 1.a END """
 
     # pretrained model load
@@ -108,10 +107,10 @@ def train(args):
     " Set an optimizer or scheduler for Few-shot classification (optional) "
 
     # Default optimizer setting
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
-    #  optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=1e-4)
-    #  decay_epoch = [32000, 48000]
-    #  step_lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=decay_epoch, gamma=0.1)
+    #  optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+    optimizer = torch.optim.SGD(model.parameters(), lr=0.001, momentum=0.9, weight_decay=1e-4)
+    decay_epoch = [32000, 48000]
+    step_lr_scheduler = lr_scheduler.MultiStepLR(optimizer, milestones=decay_epoch, gamma=0.1)
     """ TODO 1.b (optional) END """
 
     tl = Averager()  # save average loss
@@ -245,7 +244,7 @@ def train(args):
             model.train()
 
         if (i+1) % SAVE_FREQ == 0:
-            PATH = 'check_model3/%d_%s.pth' % (i + 1, args.name)
+            PATH = 'checkpoints/%d_%s.pth' % (i + 1, args.name)
             torch.save(model.state_dict(), PATH)
             print('model saved, iteration : %d' % i)
 
@@ -267,8 +266,8 @@ if __name__ == '__main__':
 
     args = parser.parse_args()
 
-    if not os.path.isdir('check_model3'):
-        os.mkdir('check_model3')
+    if not os.path.isdir('checkpoints'):
+        os.mkdir('checkpoints')
 
     torch.cuda.set_device(args.gpus)
 

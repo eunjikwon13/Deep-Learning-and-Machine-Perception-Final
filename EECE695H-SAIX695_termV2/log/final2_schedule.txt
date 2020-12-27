@@ -1,0 +1,632 @@
+train start
+train 50, loss=0.4614 acc=0.8220
+train 100, loss=0.4206 acc=0.8260
+train 150, loss=0.4435 acc=0.8180
+train 200, loss=0.3635 acc=0.8670
+train 250, loss=0.3577 acc=0.8530
+train 300, loss=0.3695 acc=0.8480
+train 350, loss=0.4127 acc=0.8350
+train 400, loss=0.4114 acc=0.8310
+train 450, loss=0.3846 acc=0.8480
+train 500, loss=0.3424 acc=0.8740
+train 550, loss=0.4241 acc=0.8290
+train 600, loss=0.4151 acc=0.8360
+train 650, loss=0.4029 acc=0.8370
+train 700, loss=0.3672 acc=0.8580
+train 750, loss=0.3729 acc=0.8450
+train 800, loss=0.3960 acc=0.8390
+train 850, loss=0.4154 acc=0.8400
+train 900, loss=0.3505 acc=0.8590
+train 950, loss=0.3464 acc=0.8640
+train 1000, loss=0.3193 acc=0.8740
+validation start
+val accuracy mean : 0.5725
+val loss mean : 1.0696
+model saved, iteration : 999
+train 1050, loss=0.3693 acc=0.8570
+train 1100, loss=0.3482 acc=0.8640
+train 1150, loss=0.3585 acc=0.8610
+train 1200, loss=0.3590 acc=0.8730
+train 1250, loss=0.3450 acc=0.8610
+train 1300, loss=0.3752 acc=0.8420
+train 1350, loss=0.3628 acc=0.8550
+train 1400, loss=0.3265 acc=0.8730
+train 1450, loss=0.3549 acc=0.8550
+train 1500, loss=0.3218 acc=0.8680
+train 1550, loss=0.3851 acc=0.8490
+train 1600, loss=0.4040 acc=0.8400
+train 1650, loss=0.3464 acc=0.8640
+train 1700, loss=0.3548 acc=0.8560
+train 1750, loss=0.3542 acc=0.8480
+train 1800, loss=0.3688 acc=0.8540
+train 1850, loss=0.3550 acc=0.8720
+train 1900, loss=0.3168 acc=0.8840
+train 1950, loss=0.3208 acc=0.8790
+train 2000, loss=0.3994 acc=0.8400
+validation start
+val accuracy mean : 0.6040
+val loss mean : 1.0085
+model saved, iteration : 1999
+train 2050, loss=0.3154 acc=0.8790
+train 2100, loss=0.3685 acc=0.8580
+train 2150, loss=0.3182 acc=0.8830
+train 2200, loss=0.3727 acc=0.8550
+train 2250, loss=0.3250 acc=0.8870
+train 2300, loss=0.3595 acc=0.8620
+train 2350, loss=0.3325 acc=0.8750
+train 2400, loss=0.3308 acc=0.8750
+train 2450, loss=0.3213 acc=0.8730
+train 2500, loss=0.3233 acc=0.8810
+train 2550, loss=0.2971 acc=0.8830
+train 2600, loss=0.3485 acc=0.8680
+train 2650, loss=0.3245 acc=0.8690
+train 2700, loss=0.3804 acc=0.8540
+train 2750, loss=0.3292 acc=0.8670
+train 2800, loss=0.3410 acc=0.8640
+train 2850, loss=0.2905 acc=0.8880
+train 2900, loss=0.3784 acc=0.8480
+train 2950, loss=0.3402 acc=0.8650
+train 3000, loss=0.3517 acc=0.8670
+validation start
+val accuracy mean : 0.5850
+val loss mean : 1.0494
+model saved, iteration : 2999
+train 3050, loss=0.3308 acc=0.8730
+train 3100, loss=0.3188 acc=0.8860
+train 3150, loss=0.2837 acc=0.8900
+train 3200, loss=0.3264 acc=0.8760
+train 3250, loss=0.3182 acc=0.8810
+train 3300, loss=0.3008 acc=0.8740
+train 3350, loss=0.3267 acc=0.8740
+train 3400, loss=0.3144 acc=0.8790
+train 3450, loss=0.3214 acc=0.8860
+train 3500, loss=0.3064 acc=0.8690
+train 3550, loss=0.3405 acc=0.8580
+train 3600, loss=0.3409 acc=0.8730
+train 3650, loss=0.3234 acc=0.8710
+train 3700, loss=0.3143 acc=0.8870
+train 3750, loss=0.2834 acc=0.8840
+train 3800, loss=0.3362 acc=0.8720
+train 3850, loss=0.3171 acc=0.8800
+train 3900, loss=0.2792 acc=0.8990
+train 3950, loss=0.2951 acc=0.8880
+train 4000, loss=0.3220 acc=0.8870
+validation start
+val accuracy mean : 0.5810
+val loss mean : 1.1209
+model saved, iteration : 3999
+train 4050, loss=0.3396 acc=0.8700
+train 4100, loss=0.3461 acc=0.8710
+train 4150, loss=0.2994 acc=0.8890
+train 4200, loss=0.3180 acc=0.8730
+train 4250, loss=0.3260 acc=0.8650
+train 4300, loss=0.3036 acc=0.8790
+train 4350, loss=0.3342 acc=0.8710
+train 4400, loss=0.3214 acc=0.8750
+train 4450, loss=0.3914 acc=0.8460
+train 4500, loss=0.2631 acc=0.9010
+train 4550, loss=0.2810 acc=0.8850
+train 4600, loss=0.3186 acc=0.8760
+train 4650, loss=0.2862 acc=0.8850
+train 4700, loss=0.3807 acc=0.8470
+train 4750, loss=0.2808 acc=0.8960
+train 4800, loss=0.2813 acc=0.8920
+train 4850, loss=0.3250 acc=0.8740
+train 4900, loss=0.3035 acc=0.8950
+train 4950, loss=0.2940 acc=0.8880
+train 5000, loss=0.2715 acc=0.9010
+validation start
+val accuracy mean : 0.5750
+val loss mean : 1.0863
+model saved, iteration : 4999
+train 5050, loss=0.2885 acc=0.8970
+train 5100, loss=0.2670 acc=0.8910
+train 5150, loss=0.2667 acc=0.8910
+train 5200, loss=0.3073 acc=0.8770
+train 5250, loss=0.3104 acc=0.8650
+train 5300, loss=0.2915 acc=0.8760
+train 5350, loss=0.2941 acc=0.8890
+train 5400, loss=0.2852 acc=0.8920
+train 5450, loss=0.2938 acc=0.8850
+train 5500, loss=0.3024 acc=0.8890
+train 5550, loss=0.3374 acc=0.8660
+train 5600, loss=0.3422 acc=0.8610
+train 5650, loss=0.2996 acc=0.8850
+train 5700, loss=0.2850 acc=0.8800
+train 5750, loss=0.2750 acc=0.8960
+train 5800, loss=0.2614 acc=0.8950
+train 5850, loss=0.3198 acc=0.8740
+train 5900, loss=0.2951 acc=0.8830
+train 5950, loss=0.2833 acc=0.9020
+train 6000, loss=0.2922 acc=0.8950
+validation start
+val accuracy mean : 0.5660
+val loss mean : 1.1372
+model saved, iteration : 5999
+train 6050, loss=0.3126 acc=0.8860
+train 6100, loss=0.3039 acc=0.8730
+train 6150, loss=0.3003 acc=0.8880
+train 6200, loss=0.3011 acc=0.8840
+train 6250, loss=0.2734 acc=0.8930
+train 6300, loss=0.2947 acc=0.8950
+train 6350, loss=0.3188 acc=0.8860
+train 6400, loss=0.2472 acc=0.9010
+train 6450, loss=0.2961 acc=0.8870
+train 6500, loss=0.2820 acc=0.8800
+train 6550, loss=0.2439 acc=0.9030
+train 6600, loss=0.2847 acc=0.8980
+train 6650, loss=0.3048 acc=0.8780
+train 6700, loss=0.3292 acc=0.8660
+train 6750, loss=0.2762 acc=0.8880
+train 6800, loss=0.3098 acc=0.8820
+train 6850, loss=0.3364 acc=0.8750
+train 6900, loss=0.2955 acc=0.8900
+train 6950, loss=0.3351 acc=0.8600
+train 7000, loss=0.2553 acc=0.8990
+validation start
+val accuracy mean : 0.5875
+val loss mean : 1.0543
+model saved, iteration : 6999
+train 7050, loss=0.2940 acc=0.8820
+train 7100, loss=0.3279 acc=0.8700
+train 7150, loss=0.2640 acc=0.9000
+train 7200, loss=0.2996 acc=0.8720
+train 7250, loss=0.2925 acc=0.8870
+train 7300, loss=0.3024 acc=0.8830
+train 7350, loss=0.2726 acc=0.8890
+train 7400, loss=0.3120 acc=0.8810
+train 7450, loss=0.2660 acc=0.8990
+train 7500, loss=0.2927 acc=0.8860
+train 7550, loss=0.2887 acc=0.8820
+train 7600, loss=0.2649 acc=0.8860
+train 7650, loss=0.3178 acc=0.8720
+train 7700, loss=0.2500 acc=0.9050
+train 7750, loss=0.2472 acc=0.8960
+train 7800, loss=0.2869 acc=0.8870
+train 7850, loss=0.2982 acc=0.8910
+train 7900, loss=0.2727 acc=0.8930
+train 7950, loss=0.2993 acc=0.8790
+train 8000, loss=0.2556 acc=0.9060
+validation start
+val accuracy mean : 0.5685
+val loss mean : 1.1331
+model saved, iteration : 7999
+train 8050, loss=0.3074 acc=0.8810
+train 8100, loss=0.3515 acc=0.8720
+train 8150, loss=0.2664 acc=0.8900
+train 8200, loss=0.2621 acc=0.8970
+train 8250, loss=0.2623 acc=0.8920
+train 8300, loss=0.2465 acc=0.9080
+train 8350, loss=0.3120 acc=0.8810
+train 8400, loss=0.2692 acc=0.8920
+train 8450, loss=0.2321 acc=0.8980
+train 8500, loss=0.3100 acc=0.8700
+train 8550, loss=0.3087 acc=0.8780
+train 8600, loss=0.2569 acc=0.8940
+train 8650, loss=0.2849 acc=0.8910
+train 8700, loss=0.2664 acc=0.8900
+train 8750, loss=0.2562 acc=0.9060
+train 8800, loss=0.2717 acc=0.8710
+train 8850, loss=0.2756 acc=0.8870
+train 8900, loss=0.2485 acc=0.9080
+train 8950, loss=0.2562 acc=0.9080
+train 9000, loss=0.2761 acc=0.8870
+validation start
+val accuracy mean : 0.5880
+val loss mean : 1.0765
+model saved, iteration : 8999
+train 9050, loss=0.3047 acc=0.8850
+train 9100, loss=0.2258 acc=0.9120
+train 9150, loss=0.3043 acc=0.8880
+train 9200, loss=0.2689 acc=0.9010
+train 9250, loss=0.2295 acc=0.9040
+train 9300, loss=0.2547 acc=0.8990
+train 9350, loss=0.2629 acc=0.8920
+train 9400, loss=0.2868 acc=0.8860
+train 9450, loss=0.3375 acc=0.8720
+train 9500, loss=0.3280 acc=0.8720
+train 9550, loss=0.2343 acc=0.9050
+train 9600, loss=0.2420 acc=0.9130
+train 9650, loss=0.2842 acc=0.8790
+train 9700, loss=0.2238 acc=0.9150
+train 9750, loss=0.2901 acc=0.8950
+train 9800, loss=0.2658 acc=0.8990
+train 9850, loss=0.2362 acc=0.9030
+train 9900, loss=0.2640 acc=0.8980
+train 9950, loss=0.1959 acc=0.9210
+train 10000, loss=0.2405 acc=0.8990
+validation start
+val accuracy mean : 0.6155
+val loss mean : 1.0262
+model saved, iteration : 9999
+train 10050, loss=0.2343 acc=0.9110
+train 10100, loss=0.2544 acc=0.9110
+train 10150, loss=0.2711 acc=0.8950
+train 10200, loss=0.2582 acc=0.9000
+train 10250, loss=0.2848 acc=0.8790
+train 10300, loss=0.2825 acc=0.8830
+train 10350, loss=0.2932 acc=0.8810
+train 10400, loss=0.2891 acc=0.8880
+train 10450, loss=0.2692 acc=0.8880
+train 10500, loss=0.2285 acc=0.9100
+train 10550, loss=0.2712 acc=0.8970
+train 10600, loss=0.2202 acc=0.9120
+train 10650, loss=0.2299 acc=0.9080
+train 10700, loss=0.2833 acc=0.8830
+train 10750, loss=0.2362 acc=0.9140
+train 10800, loss=0.2990 acc=0.8730
+train 10850, loss=0.2347 acc=0.9100
+train 10900, loss=0.2621 acc=0.8910
+train 10950, loss=0.2680 acc=0.8890
+train 11000, loss=0.2679 acc=0.8960
+validation start
+val accuracy mean : 0.5905
+val loss mean : 1.1086
+model saved, iteration : 10999
+train 11050, loss=0.2680 acc=0.8870
+train 11100, loss=0.2722 acc=0.8890
+train 11150, loss=0.2155 acc=0.9200
+train 11200, loss=0.2340 acc=0.9070
+train 11250, loss=0.2592 acc=0.8850
+train 11300, loss=0.2452 acc=0.9000
+train 11350, loss=0.2315 acc=0.9040
+train 11400, loss=0.2551 acc=0.9070
+train 11450, loss=0.2850 acc=0.8930
+train 11500, loss=0.2946 acc=0.8780
+train 11550, loss=0.2534 acc=0.9100
+train 11600, loss=0.2388 acc=0.9130
+train 11650, loss=0.2765 acc=0.8970
+train 11700, loss=0.2361 acc=0.9120
+train 11750, loss=0.2727 acc=0.8910
+train 11800, loss=0.2121 acc=0.9180
+train 11850, loss=0.2196 acc=0.9080
+train 11900, loss=0.2706 acc=0.9010
+train 11950, loss=0.2290 acc=0.9080
+train 12000, loss=0.2952 acc=0.8830
+validation start
+val accuracy mean : 0.5870
+val loss mean : 1.1237
+model saved, iteration : 11999
+train 12050, loss=0.2578 acc=0.8930
+train 12100, loss=0.2440 acc=0.9020
+train 12150, loss=0.2523 acc=0.8980
+train 12200, loss=0.2667 acc=0.9030
+train 12250, loss=0.2180 acc=0.9180
+train 12300, loss=0.2670 acc=0.8870
+train 12350, loss=0.3296 acc=0.8730
+train 12400, loss=0.2441 acc=0.9010
+train 12450, loss=0.2692 acc=0.8860
+train 12500, loss=0.2628 acc=0.8970
+train 12550, loss=0.2590 acc=0.8940
+train 12600, loss=0.2337 acc=0.9180
+train 12650, loss=0.2590 acc=0.8970
+train 12700, loss=0.2737 acc=0.8910
+train 12750, loss=0.2644 acc=0.8980
+train 12800, loss=0.2505 acc=0.9010
+train 12850, loss=0.3048 acc=0.8750
+train 12900, loss=0.2685 acc=0.9060
+train 12950, loss=0.2689 acc=0.8980
+train 13000, loss=0.2714 acc=0.8950
+validation start
+val accuracy mean : 0.5930
+val loss mean : 1.0906
+model saved, iteration : 12999
+train 13050, loss=0.2819 acc=0.8900
+train 13100, loss=0.1944 acc=0.9260
+train 13150, loss=0.2183 acc=0.9130
+train 13200, loss=0.2564 acc=0.9000
+train 13250, loss=0.2770 acc=0.8850
+train 13300, loss=0.2120 acc=0.9200
+train 13350, loss=0.2647 acc=0.8990
+train 13400, loss=0.2752 acc=0.8920
+train 13450, loss=0.2434 acc=0.9150
+train 13500, loss=0.2587 acc=0.9040
+train 13550, loss=0.2321 acc=0.9150
+train 13600, loss=0.2513 acc=0.8950
+train 13650, loss=0.2394 acc=0.9110
+train 13700, loss=0.2582 acc=0.9030
+train 13750, loss=0.2110 acc=0.9110
+train 13800, loss=0.2474 acc=0.9100
+train 13850, loss=0.2355 acc=0.9080
+train 13900, loss=0.2252 acc=0.9150
+train 13950, loss=0.2411 acc=0.9090
+train 14000, loss=0.3034 acc=0.8780
+validation start
+val accuracy mean : 0.5995
+val loss mean : 1.0704
+model saved, iteration : 13999
+train 14050, loss=0.2041 acc=0.9270
+train 14100, loss=0.2408 acc=0.9030
+train 14150, loss=0.2399 acc=0.8970
+train 14200, loss=0.2037 acc=0.9200
+train 14250, loss=0.2637 acc=0.8960
+train 14300, loss=0.2689 acc=0.8890
+train 14350, loss=0.2472 acc=0.9020
+train 14400, loss=0.2463 acc=0.8950
+train 14450, loss=0.2570 acc=0.9000
+train 14500, loss=0.2056 acc=0.9130
+train 14550, loss=0.2864 acc=0.8930
+train 14600, loss=0.2604 acc=0.8980
+train 14650, loss=0.2125 acc=0.9100
+train 14700, loss=0.2715 acc=0.8990
+train 14750, loss=0.2327 acc=0.9120
+train 14800, loss=0.2060 acc=0.9100
+train 14850, loss=0.2299 acc=0.9060
+train 14900, loss=0.2060 acc=0.9100
+train 14950, loss=0.2400 acc=0.9090
+train 15000, loss=0.2505 acc=0.9010
+validation start
+val accuracy mean : 0.6200
+val loss mean : 1.0298
+model saved, iteration : 14999
+train 15050, loss=0.2917 acc=0.8830
+train 15100, loss=0.2548 acc=0.8900
+train 15150, loss=0.2420 acc=0.9070
+train 15200, loss=0.2076 acc=0.9180
+train 15250, loss=0.2140 acc=0.9110
+train 15300, loss=0.2694 acc=0.8940
+train 15350, loss=0.2519 acc=0.9070
+train 15400, loss=0.2061 acc=0.9160
+train 15450, loss=0.2558 acc=0.9000
+train 15500, loss=0.2777 acc=0.8910
+train 15550, loss=0.2047 acc=0.9140
+train 15600, loss=0.2368 acc=0.9110
+train 15650, loss=0.2236 acc=0.9000
+train 15700, loss=0.2432 acc=0.9080
+train 15750, loss=0.2614 acc=0.8950
+train 15800, loss=0.2697 acc=0.8960
+train 15850, loss=0.2394 acc=0.9020
+train 15900, loss=0.2168 acc=0.9250
+train 15950, loss=0.2582 acc=0.9060
+train 16000, loss=0.2279 acc=0.9160
+validation start
+val accuracy mean : 0.6100
+val loss mean : 1.0206
+model saved, iteration : 15999
+train 16050, loss=0.2946 acc=0.8910
+train 16100, loss=0.2670 acc=0.8980
+train 16150, loss=0.2457 acc=0.8940
+train 16200, loss=0.2123 acc=0.9250
+train 16250, loss=0.2307 acc=0.9090
+train 16300, loss=0.2232 acc=0.9110
+train 16350, loss=0.2450 acc=0.8980
+train 16400, loss=0.2275 acc=0.9060
+train 16450, loss=0.2531 acc=0.8940
+train 16500, loss=0.2242 acc=0.9120
+train 16550, loss=0.2673 acc=0.8940
+train 16600, loss=0.2061 acc=0.9220
+train 16650, loss=0.2535 acc=0.9040
+train 16700, loss=0.2077 acc=0.9170
+train 16750, loss=0.2494 acc=0.8920
+train 16800, loss=0.2490 acc=0.9070
+train 16850, loss=0.2211 acc=0.9100
+train 16900, loss=0.1935 acc=0.9270
+train 16950, loss=0.2004 acc=0.9250
+train 17000, loss=0.2115 acc=0.9200
+validation start
+val accuracy mean : 0.6130
+val loss mean : 1.0693
+model saved, iteration : 16999
+train 17050, loss=0.2572 acc=0.8960
+train 17100, loss=0.1988 acc=0.9290
+train 17150, loss=0.1973 acc=0.9300
+train 17200, loss=0.1911 acc=0.9310
+train 17250, loss=0.2281 acc=0.9110
+train 17300, loss=0.2543 acc=0.9070
+train 17350, loss=0.2449 acc=0.8960
+train 17400, loss=0.2246 acc=0.9110
+train 17450, loss=0.2171 acc=0.9080
+train 17500, loss=0.2415 acc=0.9070
+train 17550, loss=0.2263 acc=0.9110
+train 17600, loss=0.2238 acc=0.9170
+train 17650, loss=0.2190 acc=0.9200
+train 17700, loss=0.2049 acc=0.9160
+train 17750, loss=0.2144 acc=0.9170
+train 17800, loss=0.2021 acc=0.9160
+train 17850, loss=0.2398 acc=0.9060
+train 17900, loss=0.2705 acc=0.8860
+train 17950, loss=0.2321 acc=0.9120
+train 18000, loss=0.1835 acc=0.9280
+validation start
+val accuracy mean : 0.5830
+val loss mean : 1.0955
+model saved, iteration : 17999
+train 18050, loss=0.2215 acc=0.9150
+train 18100, loss=0.2228 acc=0.9070
+train 18150, loss=0.2250 acc=0.9160
+train 18200, loss=0.2242 acc=0.9180
+train 18250, loss=0.1946 acc=0.9230
+train 18300, loss=0.2151 acc=0.9180
+train 18350, loss=0.1752 acc=0.9190
+train 18400, loss=0.2147 acc=0.9230
+train 18450, loss=0.1815 acc=0.9300
+train 18500, loss=0.2826 acc=0.8800
+train 18550, loss=0.1894 acc=0.9330
+train 18600, loss=0.2317 acc=0.9070
+train 18650, loss=0.2127 acc=0.9160
+train 18700, loss=0.2033 acc=0.9190
+train 18750, loss=0.2163 acc=0.9160
+train 18800, loss=0.2181 acc=0.9210
+train 18850, loss=0.1831 acc=0.9360
+train 18900, loss=0.2202 acc=0.9120
+train 18950, loss=0.2099 acc=0.9100
+train 19000, loss=0.2253 acc=0.9040
+validation start
+val accuracy mean : 0.5880
+val loss mean : 1.1072
+model saved, iteration : 18999
+train 19050, loss=0.2218 acc=0.9140
+train 19100, loss=0.2032 acc=0.9140
+train 19150, loss=0.2356 acc=0.9040
+train 19200, loss=0.2181 acc=0.9100
+train 19250, loss=0.2411 acc=0.9020
+train 19300, loss=0.2672 acc=0.8890
+train 19350, loss=0.1894 acc=0.9110
+train 19400, loss=0.1955 acc=0.9220
+train 19450, loss=0.2337 acc=0.9120
+train 19500, loss=0.1996 acc=0.9190
+train 19550, loss=0.2098 acc=0.9250
+train 19600, loss=0.2031 acc=0.9240
+train 19650, loss=0.1875 acc=0.9300
+train 19700, loss=0.1812 acc=0.9300
+train 19750, loss=0.1847 acc=0.9290
+train 19800, loss=0.1911 acc=0.9280
+train 19850, loss=0.2464 acc=0.9060
+train 19900, loss=0.1998 acc=0.9270
+train 19950, loss=0.2078 acc=0.9160
+train 20000, loss=0.2205 acc=0.9140
+validation start
+val accuracy mean : 0.5725
+val loss mean : 1.1107
+model saved, iteration : 19999
+train 20050, loss=0.2333 acc=0.9110
+train 20100, loss=0.2370 acc=0.9020
+train 20150, loss=0.2314 acc=0.9070
+train 20200, loss=0.2563 acc=0.8920
+train 20250, loss=0.2373 acc=0.9030
+train 20300, loss=0.2321 acc=0.9020
+train 20350, loss=0.2607 acc=0.9010
+train 20400, loss=0.2071 acc=0.9270
+train 20450, loss=0.1775 acc=0.9370
+train 20500, loss=0.2485 acc=0.9040
+train 20550, loss=0.2112 acc=0.9140
+train 20600, loss=0.1890 acc=0.9260
+train 20650, loss=0.2022 acc=0.9220
+train 20700, loss=0.1911 acc=0.9220
+train 20750, loss=0.1517 acc=0.9430
+train 20800, loss=0.1998 acc=0.9190
+train 20850, loss=0.1919 acc=0.9310
+train 20900, loss=0.1866 acc=0.9290
+train 20950, loss=0.2250 acc=0.9120
+train 21000, loss=0.2229 acc=0.9130
+validation start
+val accuracy mean : 0.6100
+val loss mean : 1.0703
+model saved, iteration : 20999
+train 21050, loss=0.1638 acc=0.9360
+train 21100, loss=0.1758 acc=0.9330
+train 21150, loss=0.1937 acc=0.9210
+train 21200, loss=0.2138 acc=0.9160
+train 21250, loss=0.1747 acc=0.9290
+train 21300, loss=0.2181 acc=0.9170
+train 21350, loss=0.2022 acc=0.9230
+train 21400, loss=0.1795 acc=0.9310
+train 21450, loss=0.2272 acc=0.9200
+train 21500, loss=0.1533 acc=0.9390
+train 21550, loss=0.2602 acc=0.8930
+train 21600, loss=0.2158 acc=0.9100
+train 21650, loss=0.2276 acc=0.9060
+train 21700, loss=0.1903 acc=0.9270
+train 21750, loss=0.2850 acc=0.8920
+train 21800, loss=0.2053 acc=0.9110
+train 21850, loss=0.2490 acc=0.9080
+train 21900, loss=0.1808 acc=0.9310
+train 21950, loss=0.2127 acc=0.9130
+train 22000, loss=0.2075 acc=0.9180
+validation start
+val accuracy mean : 0.6040
+val loss mean : 1.0420
+model saved, iteration : 21999
+train 22050, loss=0.2175 acc=0.9130
+train 22100, loss=0.1653 acc=0.9410
+train 22150, loss=0.1788 acc=0.9260
+train 22200, loss=0.2202 acc=0.9140
+train 22250, loss=0.1649 acc=0.9300
+train 22300, loss=0.2146 acc=0.9150
+train 22350, loss=0.1983 acc=0.9200
+train 22400, loss=0.2279 acc=0.9040
+train 22450, loss=0.1840 acc=0.9270
+train 22500, loss=0.2106 acc=0.9250
+train 22550, loss=0.1853 acc=0.9280
+train 22600, loss=0.2263 acc=0.9080
+train 22650, loss=0.1667 acc=0.9340
+train 22700, loss=0.1870 acc=0.9250
+train 22750, loss=0.2320 acc=0.9080
+train 22800, loss=0.1984 acc=0.9230
+train 22850, loss=0.1796 acc=0.9360
+train 22900, loss=0.1946 acc=0.9190
+train 22950, loss=0.2138 acc=0.9200
+train 23000, loss=0.2187 acc=0.9050
+validation start
+val accuracy mean : 0.6060
+val loss mean : 1.0346
+model saved, iteration : 22999
+train 23050, loss=0.1630 acc=0.9390
+train 23100, loss=0.1928 acc=0.9240
+train 23150, loss=0.1827 acc=0.9300
+train 23200, loss=0.2023 acc=0.9220
+train 23250, loss=0.1661 acc=0.9380
+train 23300, loss=0.1864 acc=0.9300
+train 23350, loss=0.1874 acc=0.9310
+train 23400, loss=0.2138 acc=0.9150
+train 23450, loss=0.1949 acc=0.9220
+train 23500, loss=0.1700 acc=0.9400
+train 23550, loss=0.2150 acc=0.9160
+train 23600, loss=0.1847 acc=0.9290
+train 23650, loss=0.1950 acc=0.9200
+train 23700, loss=0.2041 acc=0.9200
+train 23750, loss=0.1920 acc=0.9210
+train 23800, loss=0.2162 acc=0.9180
+train 23850, loss=0.2387 acc=0.8960
+train 23900, loss=0.1966 acc=0.9200
+train 23950, loss=0.1933 acc=0.9230
+train 24000, loss=0.1971 acc=0.9300
+validation start
+val accuracy mean : 0.5805
+val loss mean : 1.1388
+model saved, iteration : 23999
+train 24050, loss=0.1998 acc=0.9240
+train 24100, loss=0.1526 acc=0.9420
+train 24150, loss=0.1988 acc=0.9230
+train 24200, loss=0.1492 acc=0.9390
+train 24250, loss=0.2050 acc=0.9110
+train 24300, loss=0.1792 acc=0.9310
+train 24350, loss=0.1908 acc=0.9230
+train 24400, loss=0.1579 acc=0.9410
+train 24450, loss=0.2097 acc=0.9130
+train 24500, loss=0.2150 acc=0.9170
+train 24550, loss=0.2356 acc=0.8980
+train 24600, loss=0.1607 acc=0.9330
+train 24650, loss=0.1994 acc=0.9250
+train 24700, loss=0.1560 acc=0.9410
+train 24750, loss=0.2404 acc=0.9000
+train 24800, loss=0.1774 acc=0.9350
+train 24850, loss=0.2007 acc=0.9260
+train 24900, loss=0.2017 acc=0.9210
+train 24950, loss=0.2017 acc=0.9280
+train 25000, loss=0.1910 acc=0.9240
+validation start
+val accuracy mean : 0.6055
+val loss mean : 1.0807
+model saved, iteration : 24999
+train 25050, loss=0.1768 acc=0.9410
+train 25100, loss=0.2352 acc=0.9010
+train 25150, loss=0.2041 acc=0.9080
+train 25200, loss=0.2163 acc=0.9100
+train 25250, loss=0.1828 acc=0.9280
+train 25300, loss=0.2162 acc=0.9200
+train 25350, loss=0.2045 acc=0.9170
+train 25400, loss=0.1672 acc=0.9330
+train 25450, loss=0.2176 acc=0.9220
+train 25500, loss=0.2111 acc=0.9220
+train 25550, loss=0.2317 acc=0.9100
+train 25600, loss=0.1974 acc=0.9230
+train 25650, loss=0.1411 acc=0.9530
+train 25700, loss=0.1837 acc=0.9310
+train 25750, loss=0.1920 acc=0.9220
+train 25800, loss=0.1779 acc=0.9310
+train 25850, loss=0.2064 acc=0.9260
+train 25900, loss=0.1607 acc=0.9270
+train 25950, loss=0.2067 acc=0.9160
+train 26000, loss=0.1666 acc=0.9370
+validation start
+val accuracy mean : 0.5920
+val loss mean : 1.1326
+model saved, iteration : 25999
+train 26050, loss=0.2320 acc=0.9160
+train 26100, loss=0.2114 acc=0.9170
+train 26150, loss=0.2144 acc=0.9110
+train 26200, loss=0.1719 acc=0.9280
+train 26250, loss=0.1632 acc=0.9390
+train 26300, loss=0.1710 acc=0.9230
+train 26350, loss=0.1644 acc=0.9310

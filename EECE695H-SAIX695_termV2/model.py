@@ -33,6 +33,69 @@ class Flatten(nn.Module):
     def forward(self, x):
         return x.view(x.size(0),-1)
 
+
+""" Define your own model """
+class FewShotModel(nn.Module):
+    def __init__(self, x_dim=3, hid_dim1=64, hid_dim2=128, hid_dim3=256, z_dim=64):
+        super().__init__()
+        self.encoder = nn.Sequential(
+                conv_block(x_dim, hid_dim1),
+                conv_block(hid_dim1, hid_dim1),
+                conv_block(hid_dim1, hid_dim2),
+                conv_block(hid_dim2, hid_dim3),
+                conv_block(hid_dim3, hid_dim2),
+                conv_block(hid_dim2, hid_dim1),
+                conv_block(hid_dim1, hid_dim1),
+                conv_block(hid_dim1, z_dim),
+                Flatten()
+                )
+        self._initialize_weights3()
+    def forward(self, x):        
+        embedding_vector = self.encoder(x)
+
+        return embedding_vector
+    
+    def _initialize_weights3(self):
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                if m.bias is not None:
+                    nn.init.constant_(m.bias, 0)
+            elif isinstance(m, nn.Linear):
+                nn.init.normal_(m.weight,0, 0.01)
+                nn.init.constant_(m.bias, 0)
+
+
+""" Define your own model """
+class FewShotModel2(nn.Module):
+    def __init__(self, x_dim=3, hid_dim1=64, hid_dim2=128, hid_dim3=256, hid_dim4=512, hid_dim5=1024, z_dim=64):
+        super().__init__()
+        self.encoder = nn.Sequential(
+                conv_block(x_dim, hid_dim1),
+                conv_block(hid_dim1, hid_dim1),
+                conv_block(hid_dim1, hid_dim1),
+                conv_block(hid_dim1, hid_dim1),
+                conv_block(hid_dim1, z_dim),
+                Flatten()
+                )
+        self._initialize_weights3()
+
+    def forward(self, x):        
+        embedding_vector = self.encoder(x)
+        #  print(embedding_vector.shape)
+        return embedding_vector
+    
+    def _initialize_weights3(self):
+        for m in self.modules():
+            if isinstance(m, nn.Conv2d):
+                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
+                if m.bias is not None:
+                    nn.init.constant_(m.bias, 0)
+            elif isinstance(m, nn.Linear):
+                nn.init.normal_(m.weight,0, 0.01)
+                nn.init.constant_(m.bias, 0)
+
+
 class FewShotModel3(nn.Module):
     def __init__(self, x_dim=3, hid_dim1=64, hid_dim2=128, hid_dim3=256, z_dim=64):
         super().__init__()
@@ -145,7 +208,7 @@ class Ensemble_Fewshot(nn.Module):
         #  print(x1.shape)
 
         x2 = self.modelB(x)
-        #  x2 = x2.view(x2.size(0), -1)
+        x2 = x2.view(x2.size(0), -1)
         #  print(x2.shape)
 
         x = torch.cat((x1, x2), dim=1)
@@ -184,67 +247,6 @@ class Ensemble_Fewshot2(nn.Module):
     
         return out
 
-
-""" Define your own model """
-class FewShotModel(nn.Module):
-    def __init__(self, x_dim=3, hid_dim1=64, hid_dim2=128, hid_dim3=256, z_dim=64):
-        super().__init__()
-        self.encoder = nn.Sequential(
-                conv_block(x_dim, hid_dim1),
-                conv_block(hid_dim1, hid_dim1),
-                conv_block(hid_dim1, hid_dim2),
-                conv_block(hid_dim2, hid_dim3),
-                conv_block(hid_dim3, hid_dim2),
-                conv_block(hid_dim2, hid_dim1),
-                conv_block(hid_dim1, hid_dim1),
-                conv_block(hid_dim1, z_dim),
-                Flatten()
-                )
-        self._initialize_weights3()
-    def forward(self, x):        
-        embedding_vector = self.encoder(x)
-
-        return embedding_vector
-    
-    def _initialize_weights3(self):
-        for m in self.modules():
-            if isinstance(m, nn.Conv2d):
-                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
-                if m.bias is not None:
-                    nn.init.constant_(m.bias, 0)
-            elif isinstance(m, nn.Linear):
-                nn.init.normal_(m.weight,0, 0.01)
-                nn.init.constant_(m.bias, 0)
-
-
-""" Define your own model """
-class FewShotModel2(nn.Module):
-    def __init__(self, x_dim=3, hid_dim1=64, hid_dim2=128, hid_dim3=256, hid_dim4=512, hid_dim5=1024, z_dim=64):
-        super().__init__()
-        self.encoder = nn.Sequential(
-                conv_block(x_dim, hid_dim1),
-                conv_block(hid_dim1, hid_dim1),
-                conv_block(hid_dim1, hid_dim1),
-                conv_block(hid_dim1, hid_dim1),
-                conv_block(hid_dim1, z_dim),
-                Flatten()
-                )
-        self._initialize_weights3()
-
-    def forward(self, x):        
-        embedding_vector = self.encoder(x)
-        #  print(embedding_vector.shape)
-        return embedding_vector
-    
-    def _initialize_weights3(self):
-        for m in self.modules():
-            if isinstance(m, nn.Conv2d):
-                nn.init.kaiming_normal_(m.weight, mode='fan_out', nonlinearity='relu')
-                if m.bias is not None:
-                    nn.init.constant_(m.bias, 0)
-            elif isinstance(m, nn.Linear):
-                nn.init.normal_(m.weight,0, 0.01)
-                nn.init.constant_(m.bias, 0)
 
 
 
@@ -367,7 +369,7 @@ class ResNet(nn.Module):
 def resnet():
 	block = ResidualBlock
 	# total number of layers if 6n + 2. if n is 5 then the depth of network is 32.
-	model = ResNet(6, block) 
+	model = ResNet(5, block) 
 	return model
 
 def Fewshot_EJK():
@@ -376,17 +378,3 @@ def Fewshot_EJK():
     model = Ensemble_Fewshot(modelA, modelB, 64)
     return model
 
-def Fewshot_EJK2():
-    block = ResidualBlock
-    modelA = ConvNet1()
-    #  modelB = ConvNet2()
-    modelB = FewShotModel()
-    model = Ensemble_Fewshot(modelA, modelB, 64)
-    return model
-
-def Fewshot_EJK3():
-    modelA = ConvNet1()
-    modelB = ConvNet2()
-    modelC = FewShotModel()
-    model = Ensemble_Fewshot2(modelA, modelB, modelC, 64)
-    return model
